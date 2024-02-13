@@ -1,8 +1,9 @@
 import requests
 import json
+from APIKEYS import hugFaceAPI
 
 API_URL2 = "https://api-inference.huggingface.co/models/nateraw/food"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "Bearer " + hugFaceAPI}
 
 def get_first_label(json_string):
     try:
