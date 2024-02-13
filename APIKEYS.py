@@ -1,2 +1,2 @@
-yelpAPI = 'B5oRp7Uwj0EDptml5VYLowGV7B9k1Iwy9qdBOrRjpTqaHMmgqSA4Eg7UjsafKftEDeve1mnntfjxLG2SEa7_bIGH2subqvoKXhrNUgmtvUsVbtEyFYCSqfd5jMemZXYx'
-hugFaceAPI = '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'
+yelpAPI = ''
+hugFaceAPI = ''
