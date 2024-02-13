@@ -40,6 +40,7 @@ Get API keys from the following and insert them into the file APIKEYS.py
 Known Issues
 -
 TypeError: string indices must be integers
+
 Sometimes when getting the first label, an error will be thrown on ~line 99, if this happens, just run it again until it passes. 
 
 WIP
