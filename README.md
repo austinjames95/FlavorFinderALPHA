@@ -19,11 +19,11 @@ FlavorFinderALPHA requires Python 3.11 to run. you can download this version of 
 
 Run the following commands in cmd:
 
-#clone repository
+(clone repository)
 git clone https://github.com/austinjames95/FlavorFinderALPHA.git
 cd FlavorFinderALPHA
 
-#install libaries
+(install libaries)
 pip install -r requrements.txt
 
 -------------------------------------------------------------------------------------------------------
