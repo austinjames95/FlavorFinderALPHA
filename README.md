@@ -15,15 +15,18 @@ How does it work?
 -------------------------------------------------------------------------------------------------------
 Setup
 - 
-FlavorFinderALPHA requires Python 3.11 to run. you can download this version of python here (https://www.python.org/downloads/)
+FlavorFinderALPHA requires Python 3.11 to run. you can download this version of Python here (https://www.python.org/downloads/)
 
 Run the following commands in cmd:
 
 (clone repository)
+
 git clone https://github.com/austinjames95/FlavorFinderALPHA.git
+
 cd FlavorFinderALPHA
 
-(install libaries)
+(install libraries)
+
 pip install -r requrements.txt
 
 -------------------------------------------------------------------------------------------------------
