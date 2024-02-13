@@ -7,6 +7,7 @@ from imageDetect import test, get_first_label, correctFormat
 from foodVec import calculate_similarity
 from getWiki import get_food_description
 import matplotlib.pyplot as plt
+from APIKEYS import yelpAPI
 
 # Yelp Fusion API endpoint
 url = 'https://api.yelp.com/v3/businesses/search'
@@ -29,7 +30,7 @@ mean_cosine = []
 
 # API key
 headers = {
-    'Authorization': 'Bearer ' + 'B5oRp7Uwj0EDptml5VYLowGV7B9k1Iwy9qdBOrRjpTqaHMmgqSA4Eg7UjsafKftEDeve1mnntfjxLG2SEa7_bIGH2subqvoKXhrNUgmtvUsVbtEyFYCSqfd5jMemZXYx',
+    'Authorization': 'Bearer ' + yelpAPI,
 }
 
 #model classification
@@ -131,6 +132,7 @@ def plot_bar_graph(values, foodName):
     
     # Show the plot
     plt.show()
+    print(max_index + " is the food with the greatest similarity")
 
 
 plot_bar_graph(mean_cosine, foodName)
